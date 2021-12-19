@@ -1,0 +1,15 @@
+.logo {
+  height: 170px;
+  width: 100%;
+  background: linear-gradient(to top, #1d9236, #5aaf6c, #66aa75);
+  box-shadow: 0 0 10px 5 rgba(0, 0, 0, 0.4);
+}
+
+.logo img {
+  margin-top: 60px;
+  height: 220px;
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.3);
+}
+/*# sourceMappingURL=logo.component.css.map */

@@ -1,0 +1,106 @@
+
+<ion-content>
+  <ion-slides pager="true" [options]="slideoptions">
+    <ion-slide>
+      <div class="slide1">
+        <div class="title">
+          <h2>Welcome To VaccinatedAko</h2>
+        </div>
+        <div class="subtitle">
+          <div class="sbt">
+            <p><strong>VaccinatedAko</strong> is an application created for Gordon College that will provide information regarding to vaccination status of the students of Gordon College.</p>
+            <p>This Application aims to make it easy to monitor the information of the students related to vaccination who are currently enrolled in Gordon College.</p>
+            <p>it is an application that monitors the student who are already vaccinated and those who are not. Its like a tracking application to known how many students still are not vaccinated and vaccinated. </p>
+          </div>
+          <div class="ttl">
+            <p>VaccinatedAko</p>
+          </div>
+        </div>
+      </div>
+    </ion-slide>
+    <ion-slide>
+      <div class="logo">
+        <app-logo></app-logo>
+      </div>
+      <div class="con-body">
+        <ion-card-header>
+          <h2>VaccinatedAko</h2>
+          <ion-card-subtitle>A COVID-19 Vaccination Survey Form</ion-card-subtitle>
+        </ion-card-header>
+      </div>
+      <div class="btn">
+        <ion-button expand="block" color="success" size="5" shape="round" fill="outline" (click)="navigateToLoginPage()">Login</ion-button>
+        <ion-button expand="block" color="success" size="5" shape="round" (click)="navigateToSignUpPage()">Sign Up</ion-button>
+      </div>
+    </ion-slide>
+    <ion-slide>
+      
+      <ion-card-content>
+        <ion-subtitle>Some Tips for avoid COVI-19</ion-subtitle>
+        <iframe width="90%" height="160" src="https://www.youtube.com/embed/xVu_I6WCsto" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </ion-card-content>
+
+      <div class="prev">
+        <ion-card-content>
+          <ion-subtitle>You must need to DO</ion-subtitle>
+          <ion-row>
+            <ion-col>
+              <div class="images">
+                <img src="assets/images/mask.jpg">
+                <div class="overlay">
+                  <h3>Wear a Facemask</h3>
+                </div>
+              </div>
+            </ion-col>
+            <ion-col>
+              <div class="images">
+                <img src="assets/images/washhand.jpg">
+                <div class="overlay">
+                  <h3>Wash your Hand</h3>
+                </div>
+              </div>
+            </ion-col>
+            <ion-col>
+              <div class="images">
+                <img src="assets/images/distance.jpg">
+                <div class="overlay">
+                  <h3>Keep Distance</h3>
+                </div>
+              </div>          
+            </ion-col>
+          </ion-row>
+        </ion-card-content>
+
+        <ion-card-content>
+          <ion-subtitle>DON'T</ion-subtitle>
+          <ion-row>
+            <ion-col>
+              <div class="images">
+                <img src="assets/images/places.jpg">
+                <div class="overlay">
+                  <h3>Avoid Crowds Places</h3>
+                </div>
+              </div>
+            </ion-col>
+            <ion-col>
+              <div class="images">
+                <img src="assets/images/handshake.jpg">
+                <div class="overlay">
+                  <h3>Avoid Handshake</h3>
+                </div>
+              </div>
+            </ion-col>
+            <ion-col>
+              <div class="images">
+                <img src="assets/images/face.jpg">
+                <div class="overlay">
+                  <h3>Avoid Touching your Face, eyes, nose</h3>
+                </div>
+              </div>          
+            </ion-col>
+          </ion-row>
+        </ion-card-content>
+      </div>
+    </ion-slide>
+  </ion-slides>
+</ion-content>

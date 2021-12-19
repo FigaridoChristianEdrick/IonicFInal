@@ -1,0 +1,72 @@
+ion-content {
+  --ion-background-color: rgb(236, 248, 236);
+}
+
+ion-content ion-slides {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ion-content ion-slides ion-slide {
+  display: block;
+}
+
+ion-content ion-slides ion-slide .slide1 {
+  height: 100vh;
+}
+
+ion-content ion-slides ion-slide .slide1 .title h2 {
+  color: #000;
+}
+
+ion-content ion-slides ion-slide .slide1 .subtitle {
+  width: 90%;
+  margin: 50px auto;
+  height: 400px;
+  background: #e4f3e4;
+  border-radius: 15px;
+}
+
+ion-content ion-slides ion-slide .slide1 .subtitle ion-subtitle {
+  color: #615e5e;
+}
+
+ion-content ion-slides ion-slide .logo {
+  width: 100%;
+  height: 200px;
+}
+
+ion-content ion-slides ion-slide .btn {
+  margin: 170px auto;
+  width: 90%;
+  max-height: 80vh;
+}
+
+ion-content ion-slides ion-slide .btn ion-button {
+  font-size: 16px;
+  margin-bottom: 15px;
+  transition: all 0.5s ease-in-out;
+  font-weight: 700;
+}
+
+ion-content ion-slides ion-slide h1 {
+  color: black;
+}
+
+ion-content ion-slides ion-slide .con-body {
+  width: 100%;
+  margin-top: 30px;
+}
+
+ion-content ion-slides ion-slide .con-body h2 {
+  color: #257c49;
+  font-size: 35px;
+  margin-bottom: -2px;
+}
+
+ion-content ion-slides ion-slide .con-body ion-card-subtitle {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=slides.component.css.map */
